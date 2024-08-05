@@ -12,9 +12,9 @@ type CheckboxWithLabelProps = {
 export default function CheckboxWithLabel({
   name,
   label,
-  //   register,
-  getValues,
-}: CheckboxWithLabelProps) {
+}: //   register,
+// getValues,
+CheckboxWithLabelProps) {
   // const isChecked = !!getValues(name); // Coerce the value to boolean
   const isChecked = true; // Coerce the value to boolean
 
